@@ -23,6 +23,44 @@
 }
 
 /* header navigation bar  */
+header img {
+    width: 140px;
+    padding-left: 20px;
+}
+
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    /* default is larger */
+}
+
+.nav-link{
+    color: black  !important;
+    font-weight: 500 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ---------- */
 
