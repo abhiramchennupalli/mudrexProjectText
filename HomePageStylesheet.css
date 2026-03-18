@@ -569,7 +569,7 @@
 
 .footer a {
     text-decoration: none !important;
-    color: rgba(255, 255, 255, 0.678) !important;
+    color: white !important;
     font-weight: 600 !important;
     display: block;
 
@@ -591,18 +591,40 @@
     background-color: #0D0D2B;
 }
 
+.footerSmall h4 {
+    color: rgb(255, 247, 247) !important;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.footerSmall a {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0px;
+
+}
+
+.gap-28 {
+    gap: 7rem;
+}
+
+#h4footerinsmallscreenpayment {
+    color: white !important;
+    font-size: 1.5rem !important;
+    font-weight: normal !important;
+}
+
+.footerSmall i {
+    font-size: 20px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.paymentFooter1 img {
+    width: 100px;
+    margin: 0 5px;
+}
 
 
 
