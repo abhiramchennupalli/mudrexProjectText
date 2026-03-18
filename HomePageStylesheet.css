@@ -499,6 +499,7 @@
   box-shadow: none !important;
   border: none !important;
   color: inherit !important;
+  padding: 1rem 0rem !important;
 }
 
 /* Remove blue focus */
@@ -549,10 +550,52 @@
   font-size: 15px;
   font-weight: 480;
 }
+/* footer */
+.footer img{
+    width: 140px;
+}
 
 .footer {
     background-color: #0D0D2B;
 }
+/* .footer div{
+    padding: 0;
+} */
+.px4{
+    padding: 0.5rem 2.062rem ;
+}
+
+.footer a{
+    text-decoration: none !important;
+    color: white !important;
+    font-weight: 600 !important;
+    display: block;
+    
+}
+
+.paymentFooter img{
+    width: 100px;
+}
+
+.footAnchor h4{
+    padding: 12px 0px !important;
+}
+
+.footAnchor  a{
+    padding: 9px 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
