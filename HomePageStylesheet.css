@@ -1,25 +1,25 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* root declaration */
 
 .backgroundColorLogin {
-  background-color: #2c4180;
+    background-color: #2c4180;
 }
 
 .maxWidth {
-  width: max-content;
+    width: max-content;
 }
 
 .px-7 {
-  padding: 0 100px;
+    padding: 0 100px;
 }
 
 .w-70 {
-  width: 75%;
+    width: 75%;
 }
 
 /* header navigation bar  */
@@ -28,564 +28,568 @@
 
 /* hero section */
 .heroSectionMainDiv {
-  padding-left: 120px;
-  padding-right: 24px;
+    padding-left: 120px;
+    padding-right: 24px;
 }
 
 .HeroSection {
-  padding-bottom: 150px;
+    padding-bottom: 150px;
 
-  background-color: #f9fafb;
+    background-color: #f9fafb;
 }
 
 .heroSectionThreeDivs {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .heroSectionThreeDivs p,
 .heroSectionThreeDivs h6,
 .heroSectionThreeDivs img {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .heroSectionThreeDivs p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .heroSectionThreeDivs h6 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .appleStoreButton a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 14px 36px;
-  border: 1px solid blue;
-  border-radius: 10px;
-  text-decoration: none;
-  width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 36px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-decoration: none;
+    width: max-content;
 }
 
 .playStoreButton a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 14px 20px;
-  border: 1px solid blue;
-  border-radius: 10px;
-  text-decoration: none;
-  width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-decoration: none;
+    width: max-content;
 }
 
 .heddingPara h5 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .heddingPara p {
-  font-size: 10px;
+    font-size: 10px;
 }
 
 .heddingPara img {
-  width: 16px;
+    width: 16px;
 }
 
 #heddingH1 {
-  color: #7947bf;
+    color: #7947bf;
 }
 
 /* section name i dont know */
 
 .sectionIdont h3 {
-  color: #9285e9 !important;
+    color: #9285e9 !important;
 }
 
 /* FeatureSection */
 .featureSectionDiv img {
-  width: 250px;
+    width: 250px;
 }
 
 #featureSectionImg {
-  width: 150px !important;
+    width: 150px !important;
 }
 
 .featureSectionDivs img {
-  width: 200px;
+    width: 200px;
 }
 
 .featureSection {
-  background-color: #f4f1fc;
-  padding: 60px 0px;
+    background-color: #f4f1fc;
+    padding: 60px 0px;
 }
 
 .featureSectionDivSmall {
-  width: 420px;
-  padding: 15px 60px;
+    width: 420px;
+    padding: 15px 60px;
 }
 
 .downloadAppButton {
-  width: 400px;
-  padding: 10px 20px;
+    width: 400px;
+    padding: 10px 20px;
 }
 
 /* listSection */
 .custom-list ul {
-  list-style: none;
+    list-style: none;
 
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .custom-list li {
-  position: relative;
-  padding-left: 20px;
-  margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 .custom-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 8px;
-  width: 5px;
-  height: 5px;
-  background-color: #7947bf;
-  border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    background-color: #7947bf;
+    border-radius: 50%;
 }
 
 .custom-list {
-  padding-left: 80px;
+    padding-left: 80px;
 }
 
 #listSection {
-  padding: 20px 8px;
+    padding: 20px 8px;
 }
 
 #listSection div {
-  padding: 0 20px;
+    padding: 0 20px;
 }
 
 .customListTwo ul {
-  list-style: none;
+    list-style: none;
 
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .customListTwo li {
-  position: relative;
+    position: relative;
 
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .customListTwo li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 8px;
-  width: 6px;
-  height: 6px;
-  background-color: #7947bf;
-  border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    background-color: #7947bf;
+    border-radius: 50%;
 }
 
 .customListTwo li {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 .saber-maindiv {
-  background-color: #e0e9fe;
-  /* padding: 56px; */
+    background-color: #e0e9fe;
+    /* padding: 56px; */
 }
 
 .saber-maindiv #saberMainHeading {
-  color: #4b2880;
+    color: #4b2880;
 }
 
 .saber-subdiv h2 {
-  color: #5a2ac4;
+    color: #5a2ac4;
 }
 
 .saberSubDiv4flex div {
-  background-color: #efeefe;
-  padding: 20px;
-  border-radius: 10px;
-  height: max-content;
-  width: max-content;
+    background-color: #efeefe;
+    padding: 20px;
+    border-radius: 10px;
+    height: max-content;
+    width: max-content;
 }
 
 .saberSubDiv4flex p {
-  color: #374255;
+    color: #374255;
 }
 
 .smallScreenSaber1Grid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .smallScreenSaber1Grid i {
-  padding: 15px 11px;
-  border-radius: 10px;
-  background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
+    padding: 15px 11px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
 }
 
 .smallScreenSaber2Grid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .smallScreenSaber2Grid i {
-  padding: 15px 13px;
-  border-radius: 10px;
-  background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
+    padding: 15px 13px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
 }
 
 .smallScreenSaber3Grid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .smallScreenSaber3Grid i {
-  padding: 15px 14px;
-  border-radius: 10px;
-  background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
+    padding: 15px 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
 }
 
 .smallScreenSaber4Grid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .smallScreenSaber4Grid i {
-  padding: 15px 11px;
-  border-radius: 10px;
-  background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
+    padding: 15px 11px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #9abaf8, #bac7fe);
 }
 
 #smallScreenSaberSubDiv h6 {
-  font-size: 17px !important;
+    font-size: 17px !important;
 }
 
 #smallScreenSaberSubDiv p {
-  font-size: 12px !important;
-  text-align: center;
+    font-size: 12px !important;
+    text-align: center;
 }
 
 #smallScreenSaberSubDiv div {
-  margin: 0 20px;
+    margin: 0 20px;
 }
 
 #smallScreenSaberSubDiv {
-  padding: 18px 22px;
-  background-color: #f5f4fa;
+    padding: 18px 22px;
+    background-color: #f5f4fa;
 }
 
 /* ==========animation section  */
 .animationBackground {
-  background-color: #130628;
-  margin-top: 100px;
-  padding-bottom: 40px;
+    background-color: #130628;
+    margin-top: 100px;
+    padding-bottom: 40px;
 }
 
 .animationBackground h2 {
-  padding-top: 150px;
-  padding-bottom: 30px;
-  font-size: 36px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-size: 36px;
 }
 
 .sectionAnimation img {
-  width: 25%;
-  /* margin: 0 20px; */
+    width: 25%;
+    /* margin: 0 20px; */
 }
 
 #spanh2 {
-  color: #907bb1;
+    color: #907bb1;
 }
 
 .sectionAnimationSlide {
-  display: inline-block;
-  animation: 10s slide infinite linear;
+    display: inline-block;
+    animation: 10s slide infinite linear;
 }
 
 .sectionAnimation {
-  overflow: hidden;
-  white-space: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .sectionAnimation:hover .sectionAnimationSlide {
-  animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 @keyframes slide {
-  from {
-    transform: translateX(0);
-  }
+    from {
+        transform: translateX(0);
+    }
 
-  to {
-    transform: translateX(-100%);
-  }
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 .animation-btn {
-  display: block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  transition: all 0.3s ease;
-  background-color: #e9e8ff;
-  color: #3b3580;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    background-color: #e9e8ff;
+    color: #3b3580;
 
-  &:hover {
-    opacity: 0.9;
-  }
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 /* small screen animation-- */
 
 .smallAnimationBackground {
-  background-color: #130628;
+    background-color: #130628;
 }
 
 .smallAnimationBackground p {
-  font-size: 14px;
-  width: 90%;
+    font-size: 14px;
+    width: 90%;
 }
 
 .smallAnimationBackground h2 {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
 .smallanimation-btn {
-  display: block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  transition: all 0.3s ease;
-  background-color: #e9e8ff;
-  color: #3b3580;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    background-color: #e9e8ff;
+    color: #3b3580;
 
-  &:hover {
-    opacity: 0.9;
-  }
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 /* why mudrex */
 
 .whyMudrexSubdiv div {
-  width: 25%;
-  padding: 0 35px;
+    width: 25%;
+    padding: 0 35px;
 }
 
 #whyMudrexh2 {
-  margin-bottom: 40px !important;
+    margin-bottom: 40px !important;
 }
 
 .whyMudrexSubdiv img {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .whyMudrexSubdiv h5 {
-  padding: 0px 0 20px 0;
-  margin: 0 !important;
+    padding: 0px 0 20px 0;
+    margin: 0 !important;
 }
 
 .whyMudrexSubdiv p {
-  font-weight: 480;
-  font-size: 17px;
-  margin: 0 !important;
+    font-weight: 480;
+    font-size: 17px;
+    margin: 0 !important;
 }
 
 /* smallWhyMudrex */
 .smallWhyMudrex div {
-  padding: 24px 40px;
+    padding: 24px 40px;
 }
 
 .smallWhyMudrex h5 {
-  margin: 20px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
 }
 
 /* productsSection */
 .productsSection {
-  padding: 90px 0px;
+    padding: 90px 0px;
 }
 
 .productsSection h2 {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 #saberP {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .h5-20-r {
-  font-size: 20px;
-  font-weight: 400;
-  /* regular */
+    font-size: 20px;
+    font-weight: 400;
+    /* regular */
 }
 
 .productsSectionSubSubDiv {
-  padding: 30px;
+    padding: 30px;
 }
 
 .productsSectionSubSubDiv img {
-  width: 250px;
+    width: 250px;
 }
 
 .productsSectionSubSubDivSmallScreen img {
-  width: 200px;
+    width: 200px;
 }
 
 #saberSmallP {
-  font-size: 16px;
-  font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .saberSmallP {
-  font-size: 15px;
-  font-weight: 480;
+    font-size: 15px;
+    font-weight: 480;
 }
 
 .productsSectionSubSubDivSmallScreen {
-  padding: 10px;
+    padding: 10px;
 }
 
 /* =========== */
 .productSmallSection img {
-  width: 180px;
+    width: 180px;
 }
 
 .productSmallSection p {
-  /* padding: 0 !important; */
-  margin: 0 !important;
+    /* padding: 0 !important; */
+    margin: 0 !important;
 }
 
 #productSmallSectionp2 {
-  font-size: 14px;
-  font-weight: 480;
+    font-size: 14px;
+    font-weight: 480;
 }
 
 #imgMedia1 {
-  width: 260px;
+    width: 260px;
 }
 
 #imgMedia2 {
-  width: 140px;
+    width: 140px;
 }
 
 /* question section */
 
 /* Clean button */
 .accordion-button {
-  background-color: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-  color: inherit !important;
-  padding: 1rem 0rem !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: inherit !important;
+    padding: 1rem 0rem !important;
 }
 
 /* Remove blue focus */
 .accordion-button:focus {
-  box-shadow: none !important;
-  outline: none !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 /* Remove active background */
 .accordion-button:not(.collapsed) {
-  background-color: transparent !important;
-  box-shadow: none !important;
-  color: inherit !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: inherit !important;
 }
 
 /* Only bottom border */
 .accordion-item {
-  border: none !important;
-  border-bottom: 1px solid #ddd !important;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
 }
 
 /* Remove inner borders */
 .accordion-collapse {
-  border: none !important;
+    border: none !important;
 }
 
 /* STYLE arrow (keep it visible) */
 .accordion-button::after {
-  filter: grayscale(1);
-  opacity: 0.6;
-  transition: transform 0.3s ease;
+    filter: grayscale(1);
+    opacity: 0.6;
+    transition: transform 0.3s ease;
 }
 
 /* Rotate arrow when open */
 .accordion-button:not(.collapsed)::after {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 /* Body text */
 .accordion-body p {
-  color: #6c757d;
-  font-size: 15px;
-  line-height: 1.6;
+    color: #6c757d;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 /* Header text (FIXED) */
 .accordion-button {
-  font-size: 15px;
-  font-weight: 480;
+    font-size: 15px;
+    font-weight: 480;
 }
+
 /* footer */
-.footer img{
+.footer img {
     width: 140px;
 }
 
 .footer {
     background-color: #0D0D2B;
 }
+
 /* .footer div{
     padding: 0;
 } */
-.px4{
-    padding: 0.5rem 2.062rem ;
+.px4 {
+    padding: 0.5rem 2.062rem;
 }
 
-.footer a{
+.footer a {
     text-decoration: none !important;
-    color: white !important;
+    color: rgba(255, 255, 255, 0.678) !important;
     font-weight: 600 !important;
     display: block;
-    
+
 }
 
-.paymentFooter img{
+.paymentFooter img {
     width: 100px;
 }
 
-.footAnchor h4{
+.footAnchor h4 {
     padding: 12px 0px !important;
 }
 
-.footAnchor  a{
+.footAnchor a {
     padding: 9px 0px !important;
 }
 
-
+.footerSmall {
+    background-color: #0D0D2B;
+}
 
 
 
@@ -615,36 +619,36 @@
 /* media quries */
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .px-7 {
-    padding: 0 80px;
-  }
+    .px-7 {
+        padding: 0 80px;
+    }
 }
 
 @media (max-width: 767px) {
-  .since-text {
-    font-weight: bold;
-    font-size: 24px;
-  }
+    .since-text {
+        font-weight: bold;
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 767px) {
-  .since-text {
-    font-weight: bold;
-    font-size: 22px;
-  }
+    .since-text {
+        font-weight: bold;
+        font-size: 22px;
+    }
 
-  .since-h3 {
-    font-size: 20px;
-  }
+    .since-h3 {
+        font-size: 20px;
+    }
 
-  .custom-list {
-    padding-left: 20px;
-  }
+    .custom-list {
+        padding-left: 20px;
+    }
 }
 
 @media (max-width: 768px) {
-  .sectionAnimation img {
-    width: 50%;
-    padding: 0 6px;
-  }
+    .sectionAnimation img {
+        width: 50%;
+        padding: 0 6px;
+    }
 }
