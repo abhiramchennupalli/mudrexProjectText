@@ -680,7 +680,10 @@ header img {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .px-7 {
-        padding: 0 80px;
+        padding: 0 50px;
+        
+
+        
     }
 }
 
@@ -712,3 +715,9 @@ header img {
         padding: 0 6px;
     }
 }
+
+
+
+/* --------------test html file codding */
+
+
