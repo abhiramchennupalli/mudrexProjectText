@@ -23,7 +23,7 @@
 }
 
 /* header navigation bar  */
-header img {
+.brandImg{
     width: 140px;
     padding-left: 20px;
 }
@@ -35,28 +35,49 @@ header img {
     /* default is larger */
 }
 
-.nav-link{
-    color: black  !important;
+.nav-link {
+    color: black !important;
     font-weight: 500 !important;
 }
 
+.nav-item:hover .fa-angle-down::before {
+    content: "\f106";
+
+}
+
+/* Hide dropdown initially */
+.custom-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    min-width: 150px;
+    z-index: 1000;
+    background-color: #f9fafb;
+}
 
 
+.institutional-menu:hover .custom-dropdown {
+    display: block;
+}
 
+.navLinkHover:hover {
+    background-color: #f4f1fc;
+}
 
+#navbarSupportedContent li {
+    margin: 0 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+#mudrixAiBackground {
+    background: linear-gradient(to right,
+            #98659F,
+            #8867A8,
+            #7C69AF,
+            #726BB5);
+    color: white;
+    font-weight: 600;  
+}
 
 
 
@@ -681,9 +702,9 @@ header img {
 @media (min-width: 768px) and (max-width: 991px) {
     .px-7 {
         padding: 0 50px;
-        
 
-        
+
+
     }
 }
 
@@ -719,5 +740,3 @@ header img {
 
 
 /* --------------test html file codding */
-
-
