@@ -27,26 +27,21 @@
     padding-left: 75px;
 }
 
-/* .login-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.5);
-    
-    z-index: 999;
+
+body.blur-background {
+    filter: blur(5px);
 }
 
-.login-modal.active {
-    display: flex;
-} */
+.loginDivPara p{
+    font-size: 10px;
+}
 
-
+.loginDivPara h5{
+    font-size: 11px;
+}
+.loginDivPara img{
+    width: 20px;
+}
 /* header navigation bar  */
 .brandImg {
     width: 140px;
@@ -111,8 +106,8 @@
 
 .loginButtonDiv {
     width: 70%;
-
-
+    background: white;
+    border-radius: 10px;
 }
 
 .loginButtonDiv1 {

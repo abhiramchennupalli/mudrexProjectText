@@ -108,12 +108,12 @@
                     </div>
 
                     <div class="d-none d-lg-block">
-                        <a href="#"
+                        <a href="" id="loginAnchor"
                             class=" text-decoration-none py-2 px-3 rounded backgroundColorLogin text-light fw-semibold">Login
                             / Create Account</a>
                     </div>
 
-                    <button id="openLogin"
+                    <button
                         class=" d-block d-lg-none backgroundColorLogin text-light fw-semibold border rounded  mx-auto d-block downloadAppButton ">Login
                         / SignUp</button>
 
@@ -1559,10 +1559,9 @@
 
     </section>
 
-    <section style="height: 500px;"></section>
 
 
-    <section id="loginModal" class="login-modal">
+    <div id="loginModal" class="login-modal d-none">
 
 
         <div class="loginButtonDiv mx-auto ">
@@ -1605,7 +1604,7 @@
                 <div class="col-6 p-0">
                     <div class="p-0 d-flex justify-content-end ">
 
-                        <i class="fa-regular fa-circle-xmark fs-4 p-4"></i>
+                        <i id="closeLogin" class="fa-regular fa-circle-xmark fs-4 p-4"></i>
                     </div>
 
                     <div class="d-flex flex-column align-items-center gap-3 mt-5 p-0">
@@ -1636,20 +1635,55 @@
                             Phone</a>
                     </div>
 
-                    <div>
-                        <div class="">
-                            <img style="width: 35px;" src="./Project Images/loginButtonDiv/googlelgo.png" alt="">
-                            <i class="fa-regular fa-envelope fs-2"></i>
+                    <div class=" my-3 ">
+                        <div class=" d-flex flex-row justify-content-center align-items-center gap-4">
+                            <a href="#"><img class="rounded-circle shadow p-2" style="width: 50px;"
+                                    src="./Project Images/loginButtonDiv/googlelgo.png" alt=""></a>
+                            <a href="#" class="text-body"><i
+                                    class="fa-regular shadow fa-envelope fs-2 rounded-circle p-2"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="loginDivPara d-flex justify-content-center my-5">
+                        <div class="d-flex flex-row gap-3 ">
+                            <div class="">
+                                <div class="d-flex flex-row align-items-center gap-1 border px-1 py-2 rounded">
+                                    <img src="./Project Images/HeroSection/hammer.png" alt="" class="p-0 m-0">
+
+                                    <h5 class=" p-0 m-0">F.I.U.</h5>
+                                    <p class="p-0 m-0 text-uppercase">REGISTERED</p>
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <div class="d-flex flex-row align-items-center gap-1 border px-1 py-2 rounded">
+                                    <img src="./Project Images/HeroSection/guard.png" alt="" class="p-0 m-0">
+
+                                    <h5 class=" p-0 m-0">Insured</h5>
+                                    <p class="p-0 m-0 text-uppercase">FUNDS</p>
+                                </div>
+                            </div>
+
+                            <div class=" ">
+                                <div class="d-flex flex-row align-items-center gap-1 border px-1 py-2 rounded">
+                                    <img src="./Project Images/HeroSection/star.png" alt="" class="p-0 m-0">
+
+                                    <h5 class="p-0 m-0">4.5</h5>
+                                    <p class="p-0 m-0 text-uppercase">APP RATING</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
+
             </div>
+
         </div>
 
-    </section>
+    </div>
 
-    <section style="height: 500px;"></section>
+    
 
 
 
