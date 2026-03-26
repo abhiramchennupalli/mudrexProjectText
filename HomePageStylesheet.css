@@ -232,6 +232,12 @@ body.blur-background {
 }
 
 /* listSection */
+
+
+.aboutSectionNav{
+    top: 57px;
+    border: 1px dotted red;
+}
 .custom-list ul {
     list-style: none;
 
@@ -388,6 +394,8 @@ body.blur-background {
     padding: 18px 22px;
     background-color: #f5f4fa;
 }
+
+
 
 /* ==========animation section  */
 .animationBackground {

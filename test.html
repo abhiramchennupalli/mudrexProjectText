@@ -1,106 +1,234 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <!-- Bootstrap FIRST -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+  <!-- Bootstrap FIRST -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Your CSS LAST (IMPORTANT) -->
-    <link rel="stylesheet" href="HomePageStylesheet.css" />
-  </head>
-  <body>
-    
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/YOUR_KIT_ID.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Your CSS LAST (IMPORTANT) -->
+  <link rel="stylesheet" href="HomePageStylesheet.css" />
+</head>
+
+<body>
+  <section>
+
+    <h2 class="fw-bold text-center my-5">Build Your Portfolio, Your Way</h2>
+
+    <div class="sticky-top aboutSectionNav  w-80 mx-auto d-flex flex-row justify-content-center">
+      <a href="#coins" class="border text-decoration-none d-flex flex-row align-items-center gap-2"><img
+          src="./Project Images/newAboutNavBarImages/coins.png" alt="">Coins</a>
+      <a href="#futures" class=" border text-decoration-none d-flex flex-row align-items-center gap-2"><img
+          src="./Project Images/newAboutNavBarImages/image.png" alt="">Futures</a>
+      <a href="#coinSets" class="border text-decoration-none d-flex flex-row align-items-center gap-2"><img
+          src="./Project Images/newAboutNavBarImages/coinSets.png" alt="">Coin Sets</a>
+
+    </div>
+
+    <div>
+
+
+
+      <div class="py-3 px-0 m-0 ">
+
+
+
+        <div class="container listSection">
+          <div class="row align-items-center custom-list">
+
+            <div class="col-md-5">
+              <h3 id="coins">Coins</h3>
+              <h5 class="my-4">Simplified crypto investing, backed by expert insights</h5>
+
+              <ul class="mb-5">
+                <li>650+ Coins to Invest</li>
+                <li>Invest one-time or set up recurring plans (SIP)</li>
+                <li>Easy access to key technical & fundamental analysis for each crypto</li>
+              </ul>
+
+              <button
+                class="backgroundColorLogin text-light fw-semibold border rounded   d-none d-md-block px-3 py-2 my-3 my-md-5  ">
+                Buy Crypto Instantly
+              </button>
+
+              <!-- <button
+                            class="backgroundColorLogin text-light fw-semibold border rounded  px-3 py-2 my-3 my-md-5  ">
+                            Trade Crypto Futures
+                        </button> -->
+
+
+              <button
+                class="backgroundColorLogin text-light fw-semibold border rounded  mx-auto  downloadAppButton  d-block d-md-none ">Trade
+                Buy Crypto Instantly</button>
+
+              <div class="d-flex flex-row p-3 border rounded-3 maxWidth my-5">
+                <div class="px-4 border-end">
+                  <p class="p-0 m-0 fw-bold">650+</p>
+                  <p class="text-uppercase text-secondary  m-0 p-0">Cryptocurrencies</p>
+                </div>
+                <div class="px-4">
+                  <p class="p-0 m-0 fw-bold  ">2M</p>
+                  <p class="text-uppercase text-secondary  m-0 p-0">Investors</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-7">
+              <img src="./Project Images/AboutSectionList/coins.png" alt="About list section" class="img-fluid ">
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+    </div>
+
+    <div class="my-5 " id="futures">
+      <div class="py-3 px-0 m-0 ">
+
+
+
+
+        <div class="container ">
+          <div class="row align-items-center customListTwo ">
+
+
+
+            <div class="col-md-7  d-flex order-2 order-md-0 mt-5">
+              <img src="./Project Images/AboutSectionList/Fetures.png" alt="About list section"
+                class="img-fluid w-100  align-self-end ">
+            </div>
+
+            <div class="col-md-5 customListTwo order-1 order-md-1 ">
+              <h3>Futures</h3>
+              <h5 class="my-4">Trade crypto futures contracts with ease</h5>
+
+              <ul class="mb-5">
+                <li>Get access to 500+ trading pairs</li>
+                <li>Leverage your positions by up to 100x</li>
+                <li>Enjoy best liquidity in the market</li>
+              </ul>
+
+              <button
+                class="backgroundColorLogin text-light fw-semibold border rounded   d-none d-md-block px-3 py-2 my-3 my-md-5  ">
+                Trade Crypto Futures
+              </button>
+
+              <!-- <button
+                            class="backgroundColorLogin text-light fw-semibold border rounded  px-3 py-2 my-3 my-md-5  ">
+                            Trade Crypto Futures
+                        </button> -->
+
+
+              <button
+                class="backgroundColorLogin text-light fw-semibold border rounded  mx-auto  downloadAppButton  d-block d-md-none ">Trade
+                Crypto Futures</button>
+
+
+              <div class="d-flex flex-row p-3 border rounded-3 maxWidth mt-5 justify-content-sm-center">
+                <div class="px-4 border-end">
+                  <p class="p-0 m-0 fw-bold">500+</p>
+                  <p class="text-uppercase text-secondary  m-0 p-0">Trading Pairs</p>
+                </div>
+                <div class="px-4">
+                  <p class="p-0 m-0 fw-bold  ">200M+</p>
+                  <p class="text-uppercase text-secondary  m-0 p-0">Trading Volume</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+    </div>
+
+    <div id="coinSets">
+      <div class="py-3 px-0 m-0 my-5">
+
+
+
+
+        <div class="container listSection">
+          <div class="row align-items-center custom-list">
+
+            <div class="col-md-5">
+              <h3>Coin Sets</h3>
+              <h5 class="my-4">Invest in expert-curated crypto baskets</h5>
+
+              <ul class="mb-5">
+                <li>Diversify to minimize risk</li>
+                <li>Auto-rebalanced to keep your portfolio aligned</li>
+                <li>Explore 20+ theme-based baskets like blue chips, memecoins, AI, and more</li>
+              </ul>
+
+              <button
+                class="backgroundColorLogin text-light fw-semibold border rounded   d-none d-md-block px-3 py-2 my-3 my-md-5  ">
+                Invest in Crypto Basket
+              </button>
+
+              <!-- <button
+                            class="backgroundColorLogin text-light fw-semibold border rounded  px-3 py-2 my-3 my-md-5  ">
+                            Trade Crypto Futures
+                        </button> -->
+
+
+              <button
+                class="backgroundColorLogin text-light fw-semibold border rounded  mx-auto  downloadAppButton  d-block d-md-none ">Trade
+                Invest in Crypto Basket</button>
+
+              <div class="d-flex flex-row p-3 border rounded-3 maxWidth my-5">
+                <div class="px-4 border-end">
+                  <p class="p-0 m-0 fw-bold">20+</p>
+                  <p class="text-uppercase text-secondary  m-0 p-0">Themes</p>
+                </div>
+                <div class="px-4">
+                  <p class="p-0 m-0 fw-bold  ">1M+</p>
+                  <p class="text-uppercase text-secondary  m-0 p-0">Invested Users</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-7">
+              <img src="./Project Images/AboutSectionList/Coins sets.png" alt="About list section" class="img-fluid ">
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+    </div>
+  </section>
+  <section style="height: 1000px;">
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/YOUR_KIT_ID.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
-
-
-Most Searched For:
-Top crypto under $1
-Top Crypto Mining Apps
-Best Penny Crypto 1000x
-Crypto to hit $1
-Best Crypto Signal Providers
-Best Crypto Short term Gains
-Meme Coin To Reach $1
-Supertrend Indicator
-Top Undervalued Altcoins
-Cheapest Crypto to Buy
-Trending Cryptocurrencies
-Why Bitcoin Down Today
-Buy USDT Legally
-How to Buy Bitcoin
-How to Sell Bitcoin
-How to Buy USDT
-Is bitcoin a good investment
-Is XRP a good investment
-Is Chainlink a good investment
-Is Pepe a good investment
-Is Solana a good investment
-Is Cardano a good investment
-Is Litecoin a good investment
-bitcoin kaise kharide
-usdt kaise kharide
-ethereum kaise kharide
-Ripple kaise khareede
-Solana kaise khareede
-Bitcoin
-Ethereum
-Tether
-Solana
-बिटकॉइन
-एथेरियम
-टेदर
-सोलना
-डॉज़कॉइन
-कार्डानो
-यूएसडी-कॉइन
-रिपल
-ट्रॉन
-बाइनेंस-कॉइन
-WIN/INR Converter
-PEPE/INR Converter
-SHIB/INR Converter
-MINA/INR Converter
-BTTC/INR Converter
-SWEAT/INR Converter
-Bitcoin price prediction
-Ethereum price prediction
-Pi price prediction
-Brise price prediction
-Stellar Price Prediction
-Crypto Margin Trading
-Crypto Leverage Trading
-Parabolic SAR
-Donchian Channels
-Candlestick Patterns
-BTC Support and Resistance Level
-Golden Cross
-Bollinger bands
-Wyckoff theory
-RSI
-Moving Averages
-How to use MACD in crypto
-Keltner Channels Vs Bollinger Bands
-ADX
-Average True range
-Harmonic Patterns
-Fibonacci
-Volume Weighted Average Price
